@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      invoicer-app1521:
+        image: evolza/invoicer-app1521
+        container_name: invoicer-app1521
+        ports:
+          - '16521:8888'

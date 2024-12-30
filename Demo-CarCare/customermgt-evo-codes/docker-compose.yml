@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  clone-customermgt-evo-codes:
+    image: evolza/customermgt-clone
+    container_name: customermgt-evo-codes-clone
+    ports:
+      - "4557:8006"

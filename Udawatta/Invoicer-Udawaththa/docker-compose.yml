@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  invoicer-udawaththa:
+    image: evolza/invoicer-udawaththa
+    container_name: invoicer-udawaththa
+    ports:
+      - "6000:8888"
+

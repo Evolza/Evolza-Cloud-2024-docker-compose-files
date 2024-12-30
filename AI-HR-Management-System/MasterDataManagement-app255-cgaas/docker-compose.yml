@@ -1,0 +1,6 @@
+services:
+ masterdatamanagement-app255:
+    image: rukshala96/masterdatamanagement-app
+    container_name: masterdatamanagement-app
+    ports:
+      - "5202:8888"

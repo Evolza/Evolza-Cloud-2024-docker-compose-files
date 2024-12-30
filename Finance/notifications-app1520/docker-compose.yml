@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      notifications-app1520:
+        image: evolza/notifications-app1520
+        container_name: notifications-app1520
+        ports:
+          - '16520:8888'

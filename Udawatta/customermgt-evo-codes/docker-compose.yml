@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  customermgt-evo-codes:
+    image: evolza/customermgt
+    container_name: customermgt-evo-codes
+    ports:
+      - "6007:8006"

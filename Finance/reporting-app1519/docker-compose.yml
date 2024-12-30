@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      reporting-app1519:
+        image: evolza/reporting-app1519
+        container_name: reporting-app1519
+        ports:
+          - '16519:8888'

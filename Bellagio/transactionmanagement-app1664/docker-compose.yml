@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      transactionmanagement-app1664:
+        image: evolza/transactionmanagement-app1664
+        container_name: transactionmanagement-app1664
+        ports:
+          - '16664:8888'

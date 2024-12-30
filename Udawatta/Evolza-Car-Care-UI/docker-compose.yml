@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  carcare-portal-ui:
+    image: evolza/carcare-udawatta-ui
+    container_name: carcare-portal-ui
+    ports:
+      - "6003:80"

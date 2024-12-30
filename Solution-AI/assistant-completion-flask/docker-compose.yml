@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      assistant-completion-flask:
+        image: evolza/solution-ai-flask-app
+        container_name: assistant-completion-flask
+        ports:
+          - '8926:5000'

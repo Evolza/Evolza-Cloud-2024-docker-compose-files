@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      deepani-warehouse-management-portal:
+        image: evolza/deepani-wms-portal
+        container_name: deepani-warehouse-management-portal
+        ports:
+          - '7855:80'

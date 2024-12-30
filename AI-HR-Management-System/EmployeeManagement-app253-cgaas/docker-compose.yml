@@ -1,0 +1,6 @@
+services:
+ employee-management-app:
+    image: evolza/employee-management-app:production
+    container_name: employee-management-app
+    ports:
+      - "5503:8888"

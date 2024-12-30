@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      EvolzaTenderManagemnt-ws475-cgaas:
+        image: evolza/tender-management-portal-app:production
+        container_name: EvolzaTenderManagemnt-ws475-cgaas
+        ports:
+          - '17383:80'

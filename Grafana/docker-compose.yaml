@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      - GF_SERVER_ROOT_URL=http://my.grafana.server/
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=Asd@1234
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_storage:/var/lib/grafana
+    depends_on:
+      - redis
+    networks:
+      - grafana-network
+
+  redis:
+    image: redis:latest
+    container_name: redis-server
+    restart: unless-stopped
+    ports:
+      - "6382:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --requirepass Asd@1234
+    networks:
+      - grafana-network
+
+volumes:
+  grafana_storage: {}
+  redis_data: {}
+
+networks:
+  grafana-network:
+    driver: bridge
+
+

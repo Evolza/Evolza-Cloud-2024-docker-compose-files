@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      notificationservice-app-production:
+        image: evolza/notificationservice-app-production
+        container_name: notificationservice-app-production
+        ports:
+          - '18688:8080'

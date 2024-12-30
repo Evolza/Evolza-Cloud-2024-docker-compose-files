@@ -1,0 +1,7 @@
+services:
+  10ants-firebase-authentication:
+    image: evolza/10ants-firebase-authentication
+    container_name: 10ants-firebase-authentication
+    ports:
+      - '8399:8880'
+

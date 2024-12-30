@@ -1,0 +1,6 @@
+services:
+  silverleap_global_console:
+    image: evolza/silverleap_global_console:test
+    container_name: silverleap_global_console
+    ports:
+      - "5055:80"

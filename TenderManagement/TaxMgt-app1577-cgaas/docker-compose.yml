@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      TaxMgt-app1577-cgaas:
+        image: evolza/tender-tax-mgt-service:production
+        container_name: TaxMgt-app1577-cgaas
+        ports:
+          - '12756:8888'

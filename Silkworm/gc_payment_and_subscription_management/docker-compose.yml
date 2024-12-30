@@ -1,0 +1,6 @@
+services:
+  gc_payment_and_subscription_management:
+    image: evolza/gc_payment_and_subscription_management:test
+    container_name: gc_payment_and_subscription_management
+    ports:
+      - "5053:8002"

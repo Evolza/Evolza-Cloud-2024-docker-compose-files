@@ -1,0 +1,6 @@
+services:
+ carcare-udawatta-ui-clone:
+    image: evolza/carcare-udawatta-ui-clone
+    container_name: carcare-udawatta-ui-clone
+    ports:
+      - "4550:80"

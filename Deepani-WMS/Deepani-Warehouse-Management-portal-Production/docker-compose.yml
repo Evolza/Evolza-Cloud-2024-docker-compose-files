@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Warehouse-Management-portal-Production:
+        image: evolza/deepani-warehouse-management-portal:production
+        container_name: Deepani-Warehouse-Management-portal-Production
+        ports:
+          - '17855:80'

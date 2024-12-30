@@ -1,0 +1,36 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: mysql_container
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: evolza123
+      MYSQL_DATABASE: mysql-evolza-db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d  # For initialization scripts if needed
+
+volumes:
+  db_data:
+    driver: local
+
+# Optional: Add more services as needed, such as an application connecting to the database
+# Example:
+#   app:
+#     image: your_application_image
+#     depends_on:
+#       - db
+#     ports:
+#       - "your_app_port:container_port"
+#     environment:
+#       DB_HOST: db
+#       DB_PORT: 3306
+#       DB_USER: your_database_user
+#       DB_PASSWORD: your_database_password
+#       DB_NAME: your_database_name

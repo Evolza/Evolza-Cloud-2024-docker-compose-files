@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      bellagioloyaltymanagement-ws609:
+        image: evolza/bellagioloyaltymanagement-ws609
+        container_name: bellagioloyaltymanagement-ws609
+        ports:
+          - '12572:80'

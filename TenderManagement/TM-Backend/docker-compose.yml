@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      TM-Backend:
+        image: evolza/tender-competitors-mgt-service:production
+        container_name: TM-Backend
+        ports:
+          - '15786:8888'

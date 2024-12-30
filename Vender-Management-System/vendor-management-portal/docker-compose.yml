@@ -1,0 +1,6 @@
+services:
+ vendor-management-sl:
+    image: evolza/vendor-management-sl:v1
+    container_name: vendor-management-sl
+    ports:
+      - "7444:80"

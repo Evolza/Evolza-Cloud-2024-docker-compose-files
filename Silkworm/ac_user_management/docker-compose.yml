@@ -1,0 +1,6 @@
+services:
+  ac_user_management:
+    image: evolza/ac_user_management
+    container_name: ac_user_management
+    ports:
+      - "5007:8025"

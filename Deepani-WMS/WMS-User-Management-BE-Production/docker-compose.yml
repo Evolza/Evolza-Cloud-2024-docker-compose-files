@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      WMS-User-Management-BE-Production:
+        image: evolza/deepani-user-mgt-app-production
+        container_name: WMS-User-Management-BE-Production
+        ports:
+          - '19181:8100'

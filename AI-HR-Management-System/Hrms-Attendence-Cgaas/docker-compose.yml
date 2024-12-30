@@ -1,0 +1,6 @@
+services:
+ attendenceservice:
+    image: rukshala96/attendenceservice
+    container_name: attendenceservice
+    ports:
+      - "5504:8881"

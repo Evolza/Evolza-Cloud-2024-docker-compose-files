@@ -1,0 +1,6 @@
+services:
+ e-wms-be-evo-codes:
+    image: evolza/release-2-e-wms-be
+    container_name: new-e-wms-backend-container
+    ports:
+      - "6006:8000"

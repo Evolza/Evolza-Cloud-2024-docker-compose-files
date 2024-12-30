@@ -1,0 +1,6 @@
+services:
+ carcare-clone:
+    image: evolza/carcare-clone
+    container_name: carcare-clone
+    ports:
+      - "4551:8088"

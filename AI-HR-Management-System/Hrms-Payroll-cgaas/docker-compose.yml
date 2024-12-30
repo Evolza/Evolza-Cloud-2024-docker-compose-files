@@ -1,0 +1,6 @@
+services:
+ hrmspayroll:
+    image: rukshala96/hrmspayroll
+    container_name: hrmspayroll
+    ports:
+      - "5506:8888"

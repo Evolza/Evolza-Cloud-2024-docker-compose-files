@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      reservation-app1666:
+        image: evolza/reservation-app1666
+        container_name: reservation-app1666
+        ports:
+          - '16666:8888'

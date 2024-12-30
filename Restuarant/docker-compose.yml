@@ -1,0 +1,6 @@
+services:
+ restuarant-evo-codes-be:
+    image: evolza/restuarant
+    container_name: restuarant-evo-codes-be
+    ports:
+      - "6010:8000"

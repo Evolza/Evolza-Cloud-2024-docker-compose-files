@@ -1,0 +1,9 @@
+
+version: '3.8'
+
+services:
+  carcare-evo-codes:
+    image: evolza/carcare-udawaththa
+    container_name: carcare-evo-codes
+    ports:
+      - "6005:8090"

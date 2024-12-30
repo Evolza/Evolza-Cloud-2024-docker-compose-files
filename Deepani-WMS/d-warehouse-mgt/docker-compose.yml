@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      d-warehouse-mgt:
+        image: evolza/d-warehouse-mgt
+        container_name: d-warehouse-mgt
+        ports:
+          - '6428:8400'

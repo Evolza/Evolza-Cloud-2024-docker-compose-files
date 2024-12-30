@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      notificationservice-app817:
+        image: evolza/notificationservice-app817
+        container_name: notificationservice-app817
+        ports:
+          - '8688:8080'

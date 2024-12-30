@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      notificationmanagement-app1663:
+        image: evolza/notificationmanagement-app1663
+        container_name: notificationmanagement-app1663
+        ports:
+          - '16663:8888'

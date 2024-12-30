@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      productionmgt-app980:
+        image: evolza/productionmgt-app980
+        container_name: productionmgt-app980
+        ports:
+          - '7262:8888'

@@ -1,0 +1,6 @@
+services:
+  ac_admin_console:
+    image: evolza/ac_admin_console
+    container_name: ac_admin_console
+    ports:
+      - "5015:80"

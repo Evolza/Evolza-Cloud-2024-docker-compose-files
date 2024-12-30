@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      branchmgt-app815:
+        image: evolza/branchmgt-app815
+        container_name: branchmgt-app815
+        ports:
+          - '9381:8888'

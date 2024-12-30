@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      user-mgt-app1058:
+        image: evolza/user-mgt-app1058
+        container_name: user-mgt-app1058
+        ports:
+          - '9181:8100'

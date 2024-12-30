@@ -1,0 +1,6 @@
+services:
+ usermanagement-app248:
+    image: rukshala96/usermanagement-app
+    container_name: usermanagement-app
+    ports:
+      - "5501:8888"

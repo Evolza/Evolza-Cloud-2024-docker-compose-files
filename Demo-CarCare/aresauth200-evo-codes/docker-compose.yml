@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  aresauth:
+    image: evolza/aresauth200-clone
+    container_name: demo-aresauth-clone
+    ports:
+      - "4558:8000"

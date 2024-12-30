@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      employeemanagement-app1662:
+        image: evolza/employeemanagement-app1662
+        container_name: employeemanagement-app1662
+        ports:
+          - '16662:8888'

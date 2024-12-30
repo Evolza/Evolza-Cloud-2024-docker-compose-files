@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      giftrewardandloyaltymanagement-app1667:
+        image: evolza/giftrewardandloyaltymanagement-app1667
+        container_name: giftrewardandloyaltymanagement-app1667
+        ports:
+          - '16667:8888'

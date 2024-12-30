@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Inventory-Management-BE-Production:
+        image: evolza/depani-inventory-service-app
+        container_name: Deepani-Inventory-Management-BE-Production
+        ports:
+          - '18607:8300'

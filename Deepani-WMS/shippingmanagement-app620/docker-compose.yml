@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      shippingmanagement-app620:
+        image: evolza/shippingmanagement-app620
+        container_name: shippingmanagement-app620
+        ports:
+          - '6703:8200'

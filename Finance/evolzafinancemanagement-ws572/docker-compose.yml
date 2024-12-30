@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      evolzafinancemanagement-ws572:
+        image: evolza/evolzafinancemanagement-ws572
+        container_name: evolzafinancemanagement-ws572
+        ports:
+          - '8979:80'

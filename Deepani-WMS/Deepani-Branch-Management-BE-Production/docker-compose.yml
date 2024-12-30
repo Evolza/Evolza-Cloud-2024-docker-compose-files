@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Branch-Management-BE-Production:
+        image: evolza/deepani-branch-mgt-app
+        container_name: Deepani-Branch-Management-BE-Production
+        ports:
+          - '19381:8888'

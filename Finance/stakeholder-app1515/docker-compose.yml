@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      stakeholder-app1515:
+        image: evolza/stakeholder-app1515
+        container_name: stakeholder-app1515
+        ports:
+          - '16515:8888'

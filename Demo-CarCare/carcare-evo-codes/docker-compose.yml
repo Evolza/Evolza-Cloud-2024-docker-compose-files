@@ -1,0 +1,9 @@
+
+version: '3.8'
+
+services:
+  demo-carcare-udawaththa-clone:
+    image: evolza/demo-carcare-udawaththa-clone
+    container_name: demo-carcare-udawaththa-clone
+    ports:
+      - "4559:8090"

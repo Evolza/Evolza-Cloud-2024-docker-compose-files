@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Production-Management-Frontend-Production:
+        image: evolza/deepani-production-mgt-portal:production
+        container_name: Deepani-Production-Management-Frontend-Production
+        ports:
+          - '19039:80'

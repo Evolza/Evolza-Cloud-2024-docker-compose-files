@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Customer-Management-BE-Production:
+        image: evolza/deepani-customermgt-app
+        container_name: Deepani-Customer-Management-BE-Production
+        ports:
+          - '16398:8888'

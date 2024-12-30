@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-Shipping-Management-BE:
+        image: evolza/shippingmanagement-app-production
+        container_name: Deepani-Shipping-Management-BE
+        ports:
+          - '16703:8200'

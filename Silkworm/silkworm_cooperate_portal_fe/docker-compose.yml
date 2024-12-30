@@ -1,0 +1,6 @@
+services:
+  cooperate-portal:
+    image: evolza/cooperate-portal
+    container_name: cooperate-portal
+    ports:
+      - "5010:80"

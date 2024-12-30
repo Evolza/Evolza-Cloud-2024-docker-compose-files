@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      User-Mgt-app1254-cgaas:
+        image: evolza/tender-user-mgt-service:production
+        container_name: User-Mgt-app1254-cgaas
+        ports:
+          - '11756:8888'

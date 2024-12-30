@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      user-mgt-app617:
+        image: evolza/user-mgt-app617
+        container_name: user-mgt-app617
+        ports:
+          - '9646:8888'

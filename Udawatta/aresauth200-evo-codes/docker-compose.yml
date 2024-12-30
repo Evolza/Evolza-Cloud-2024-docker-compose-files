@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  aresauth:
+    image: evolza/aresauth200
+    container_name: aresauth
+    ports:
+      - "6004:8000"

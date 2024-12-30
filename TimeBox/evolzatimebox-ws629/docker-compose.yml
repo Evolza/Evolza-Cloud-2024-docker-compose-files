@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      evolzatimebox-ws629:
+        image: evolza/evolzatimebox-ws629
+        container_name: evolzatimebox-ws629
+        ports:
+          - '12752:80'

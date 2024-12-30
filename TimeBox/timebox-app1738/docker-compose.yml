@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      timebox-app1738:
+        image: evolza/timebox-app1738
+        container_name: timebox-app1738
+        ports:
+          - '16738:8888'

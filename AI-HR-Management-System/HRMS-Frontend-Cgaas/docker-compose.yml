@@ -1,0 +1,6 @@
+services:
+ hrms:
+    image: evolza/hrms
+    container_name: hrms
+    ports:
+      - "5500:80"

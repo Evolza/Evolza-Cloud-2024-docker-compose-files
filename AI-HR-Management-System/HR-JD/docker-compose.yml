@@ -1,0 +1,6 @@
+services:
+ hrms-jd-app:
+    image: evolza/hrms-jd-app
+    container_name: hrms-jd-container
+    ports:
+      - "15232:8888"

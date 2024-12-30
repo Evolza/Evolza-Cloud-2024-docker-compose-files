@@ -1,0 +1,6 @@
+services:
+ release-2-e-wms-be-clone:
+    image: evolza/release-2-e-wms-be-clone
+    container_name: demo-e-wms-be-clone
+    ports:
+      - "4556:8000"

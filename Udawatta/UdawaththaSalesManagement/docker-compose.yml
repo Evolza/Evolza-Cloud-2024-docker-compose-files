@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  udawaththasalesmanagement:
+    image: evolza/udawaththasalesmanagement
+    container_name: udawaththasalesmanagement
+    ports:
+      - "6002:80"

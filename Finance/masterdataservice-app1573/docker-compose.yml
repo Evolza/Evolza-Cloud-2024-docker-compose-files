@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      masterdataservice-app1573:
+        image: evolza/masterdataservice-app1573
+        container_name: masterdataservice-app1573
+        ports:
+          - '16573:8888'

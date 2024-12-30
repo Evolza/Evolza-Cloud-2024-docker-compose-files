@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      d-production-mgt:
+        image: evolza/deepani-production-mgt:v1
+        container_name: d-production-mgt
+        ports:
+          - '9039:80'

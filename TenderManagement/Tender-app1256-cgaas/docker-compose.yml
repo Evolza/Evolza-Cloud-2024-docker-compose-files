@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Tender-app1256-cgaas:
+        image: evolza/tender-service-microservice:production
+        container_name: Tender-app1256-cgaas
+        ports:
+          - '15756:8888'

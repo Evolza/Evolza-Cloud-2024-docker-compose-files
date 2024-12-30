@@ -1,0 +1,6 @@
+services:
+ release-2-wms-portal-clone:
+    image: evolza/release-2-wms-portal-clone
+    container_name: demo-wms-portal-clone
+    ports:
+      - "4555:80"

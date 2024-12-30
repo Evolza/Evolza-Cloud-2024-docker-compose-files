@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      transportmanagement-app1670:
+        image: evolza/transportmanagement-app1670
+        container_name: transportmanagement-app1670
+        ports:
+          - '16670:8888'

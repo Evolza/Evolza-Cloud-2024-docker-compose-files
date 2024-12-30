@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      file-mgt-app1661:
+        image: evolza/file-mgt-app1661
+        container_name: file-mgt-app1661
+        ports:
+          - '16661:8888'

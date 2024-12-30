@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      TenderRequirement-app1260-cgaas:
+        image: evolza/tender-requirements-service:production
+        container_name: TenderRequirement-app1260-cgaas
+        ports:
+          - '15757:8888'

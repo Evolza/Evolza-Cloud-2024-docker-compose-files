@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Payment-app1261-cgaas:
+        image: evolza/tender-payment-service:production
+        container_name: Payment-app1261-cgaas
+        ports:
+          - '13756:8888'

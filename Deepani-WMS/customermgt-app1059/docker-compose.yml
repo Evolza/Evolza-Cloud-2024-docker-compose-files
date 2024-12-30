@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      customermgt-app1059:
+        image: evolza/customermgt-app1059
+        container_name: customermgt-app1059
+        ports:
+          - '6398:8888'

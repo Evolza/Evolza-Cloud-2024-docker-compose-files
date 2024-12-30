@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-CRM-Frontend-Production:
+        image: evolza/deepani-crm-portal:production
+        container_name: Deepani-CRM-Frontend-Production
+        ports:
+          - '19040:80'

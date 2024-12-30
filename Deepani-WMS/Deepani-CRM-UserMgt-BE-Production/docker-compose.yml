@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      Deepani-CRM-UserMgt-BE-Production:
+        image: evolza/crm-user-mgt-app-production
+        container_name: Deepani-CRM-UserMgt-BE-Production
+        ports:
+          - '19646:8888'

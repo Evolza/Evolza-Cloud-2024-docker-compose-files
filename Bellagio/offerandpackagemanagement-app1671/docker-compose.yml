@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      offerandpackagemanagement-app1671:
+        image: evolza/offerandpackagemanagement-app1671
+        container_name: offerandpackagemanagement-app1671
+        ports:
+          - '16671:8888'

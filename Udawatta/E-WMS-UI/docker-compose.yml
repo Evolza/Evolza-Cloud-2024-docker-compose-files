@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  wms-portal-ui:
+    image: evolza/release-2-wms-portal
+    container_name: evolza-e-wms-portal-ui
+    ports:
+      - "3010:80"

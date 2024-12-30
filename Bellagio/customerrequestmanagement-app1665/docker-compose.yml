@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      customerrequestmanagement-app1665:
+        image: evolza/customerrequestmanagement-app1665
+        container_name: customerrequestmanagement-app1665
+        ports:
+          - '16665:8888'

@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      activitymanagement-app1669:
+        image: evolza/activitymanagement-app1669
+        container_name: activitymanagement-app1669
+        ports:
+          - '16669:8888'

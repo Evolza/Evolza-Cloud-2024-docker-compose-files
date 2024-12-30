@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      account-app1517:
+        image: evolza/account-app1517
+        container_name: account-app1517
+        ports:
+          - '16517:8888'

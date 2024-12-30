@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      inventoryservice-app618:
+        image: evolza/inventoryservice-app618
+        container_name: inventoryservice-app618
+        ports:
+          - '8607:8300'

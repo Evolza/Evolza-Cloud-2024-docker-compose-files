@@ -1,0 +1,6 @@
+services:
+ restuarant-evo-codes-fe:
+    image: evolza/restuarant-fe
+    container_name: restuarant-evo-codes-fe
+    ports:
+      - "6011:80"

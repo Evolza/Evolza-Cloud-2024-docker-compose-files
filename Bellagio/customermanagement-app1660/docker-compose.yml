@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      customermanagement-app1660:
+        image: evolza/customermanagement-app1660
+        container_name: customermanagement-app1660
+        ports:
+          - '16660:8888'

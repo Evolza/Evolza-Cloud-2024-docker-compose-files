@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      user-mgt-app1514:
+        image: evolza/user-mgt-app1514
+        container_name: user-mgt-app1514
+        ports:
+          - '16514:8888'

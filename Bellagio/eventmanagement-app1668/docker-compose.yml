@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      eventmanagement-app1668:
+        image: evolza/eventmanagement-app1668
+        container_name: eventmanagement-app1668
+        ports:
+          - '16668:8888'
